@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="../../../sdks/jquery/jquery-3.6.0.min.js"></script>
+        <script src="./kompleksni_broj.js"></script>
+    </head>
+    <body>
+        <div>
+            <h2>Kompleksni brojevi:</h2>
+            Z1: <input id="realniBr1" type="number">
+            <input id="imaginarniBr1" type="number">
+            <br><br>
+            Z2: <input id="realniBr2" type="number">
+            <input id="imaginarniBr2" type="number">
+        </div>
+        <br><br>
+        <div class="actions">
+            <select name="akcija" id="akcija">
+                <option value="0">Odaberi operaciju</option>
+                <option value="Zbarajanje">Zbarajanje</option>
+                <option value="Mnozenje" >Množenje</option>
+              </select>
+              <br><br>
+              <button onclick="Rjesi()">START</button>
+        </div>
+        <br>
+        <div class="rjesenje">
+            <h2>Rjesenje</h2>
+            Z3: <span id="z3"> </span> 
+        </div>
+    </body>
+</html>
